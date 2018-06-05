@@ -31,8 +31,8 @@ public class Validator {
         else if(pwd.length()<8){
             System.out.println("At least 8 characters long!");
             return false;
-        }/*
-                else if(!pwd.matches(".*\\d+.*")){
+        }
+        else if(!pwd.matches(".*\\d+.*")){
             System.out.println("At lease 1 number needed!");
             return false;
         }
@@ -45,7 +45,7 @@ public class Validator {
             return false;
         }
 
-        */
+
 
         else{
             System.out.println("Password is strong!");

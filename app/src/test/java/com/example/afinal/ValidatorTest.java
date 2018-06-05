@@ -30,10 +30,10 @@ public class ValidatorTest {
         //assertEquals(4, 2 + 2);
         assertTrue(!Validator.validation(pwd1));
         assertTrue(!Validator.validation(pwd6));
-        //assertTrue(!Validator.validation(pwd2));
-        //assertTrue(!Validator.validation(pwd3));
-        //assertTrue(!Validator.validation(pwd4));
-        //assertTrue(Validator.validation(pwd5));
+        assertTrue(!Validator.validation(pwd2));
+        assertTrue(!Validator.validation(pwd3));
+        assertTrue(!Validator.validation(pwd4));
+        assertTrue(Validator.validation(pwd5));
     }
     @After
     public void cntJUnit(){
