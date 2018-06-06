@@ -37,8 +37,7 @@ public class Validator {
             hm.put("message","At least 8 characters long!");
             return hm;
         }
-        /*
-        * else if(!pwd.matches(".*\\d+.*")){
+        else if(!pwd.matches(".*\\d+.*")){
             HashMap hm=new HashMap();
             hm.put("result",false);
             hm.put("message","At lease 1 number needed!");
@@ -56,8 +55,6 @@ public class Validator {
             hm.put("message","At lease 1 special character needed!");
             return hm;
         }
-
-        * */
         else{
             HashMap hm=new HashMap();
             hm.put("result",true);
